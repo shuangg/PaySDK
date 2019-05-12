@@ -49,6 +49,6 @@ class ExtendParams
 		{
 			return null;
 		}
-		return parent::toString();
+		return json_encode($this);
 	}
 }

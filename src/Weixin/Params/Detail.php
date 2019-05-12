@@ -39,7 +39,7 @@ class Detail
 		}
 		else
 		{
-			return parent::toString();
+			return json_encode($this);
 		}
 	}
 }
